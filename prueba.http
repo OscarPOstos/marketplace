@@ -1,0 +1,36 @@
+### 📌 1️⃣ Registro de usuario
+POST http://127.0.0.1:8000/api/auth/register/
+Content-Type: application/json
+
+{
+    "username": "juan",
+    "email": "juan@example.com",
+    "password": "123456",
+    "role": "professional"
+}
+
+### 📌 2️⃣ Inicio de sesión y obtención de token JWT
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+### 📌 3️⃣ Obtener datos del usuario autenticado (Reemplaza <ACCESS_TOKEN>)
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
+### 📌 4️⃣ Actualizar perfil del usuario
+PUT http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+Content-Type: application/json
+
+{
+    "username": "juan_actualizado",
+    "email": "juan_nuevo@example.com"
+}
+
+### 📌 5️⃣ Eliminar cuenta del usuario
+DELETE http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns

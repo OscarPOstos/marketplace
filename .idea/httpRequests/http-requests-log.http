@@ -1,0 +1,234 @@
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T162224.401.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+Content-Type: application/json
+Content-Length: 77
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan_actualizado",
+    "email": "juan_nuevo@example.com"
+}
+
+<> 2025-03-15T162218.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T162214.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T162112.500.html
+
+###
+
+DELETE http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-15T162004.500.html
+
+###
+
+PUT http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+Content-Type: application/json
+Content-Length: 77
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan_actualizado",
+    "email": "juan_nuevo@example.com"
+}
+
+<> 2025-03-15T161957.500.html
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T161910.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-15T161848.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T161839.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-15T161756.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/register/
+Content-Type: application/json
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "email": "juan@example.com",
+    "password": "123456",
+    "role": "professional"
+}
+
+<> 2025-03-15T161750.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T161347.401.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
+Content-Type: application/json
+Content-Length: 77
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan_actualizado",
+    "email": "juan_nuevo@example.com"
+}
+
+<> 2025-03-15T161333.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/auth/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-15T161323.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-15T161255.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/register/
+Content-Type: application/json
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "email": "juan@example.com",
+    "password": "123456",
+    "role": "professional"
+}
+
+<> 2025-03-15T161240.201.json
+
+###
+
