@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "owner": "juan",
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": "150.00",
+    "category": "design",
+    "created_at": "2025-03-17T13:53:59.148316Z"
+  }
+]

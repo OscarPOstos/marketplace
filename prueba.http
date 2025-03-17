@@ -34,3 +34,39 @@ Content-Type: application/json
 ### 📌 5️⃣ Eliminar cuenta del usuario
 DELETE http://127.0.0.1:8000/api/auth/user/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMTc2LCJpYXQiOjE3NDIwNTE4NzYsImp0aSI6IjkyYTQwZjAwNjA5NTQwMDZiYjJlYjg2MmZkZjAwNmVjIiwidXNlcl9pZCI6Mn0.CfUCVznJU-W92pK1DZiK1mXdO57VxSlCW8dHYTIUvns
+
+### 📌 1️⃣ Listar servicios (con filtros opcionales)
+GET http://127.0.0.1:8000/api/services/
+Content-Type: application/json
+
+### 📌 2️⃣ Crear un servicio (Solo profesionales)
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Content-Type: application/json
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+### 📌 3️⃣ Obtener detalles de un servicio específico
+GET http://127.0.0.1:8000/api/services/1/
+Content-Type: application/json
+
+### 📌 4️⃣ Editar un servicio (Solo dueño)
+PUT http://127.0.0.1:8000/api/services/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Content-Type: application/json
+
+{
+    "title": "Diseño de Logos Premium",
+    "description": "Servicio de diseño con más revisiones.",
+    "price": 200.00,
+    "category": "design"
+}
+
+### 📌 5️⃣ Eliminar un servicio (Solo dueño)
+DELETE http://127.0.0.1:8000/api/services/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ

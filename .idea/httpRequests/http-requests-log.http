@@ -1,3 +1,133 @@
+DELETE http://127.0.0.1:8000/api/services/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://127.0.0.1:8000/api/services/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Content-Type: application/json
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos Premium",
+    "description": "Servicio de diseño con más revisiones.",
+    "price": 200.00,
+    "category": "design"
+}
+
+<> 2025-03-17T145418.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/services/1/
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-17T145408.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/services/
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-17T145401.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-17T145359.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer <ACCESS_TOKEN>
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-17T145348.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/services/
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-17T145341.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-17T145238.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/register/
+Content-Type: application/json
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "email": "juan@example.com",
+    "password": "123456",
+    "role": "professional"
+}
+
+<> 2025-03-17T145235.201.json
+
+###
+
 GET http://127.0.0.1:8000/api/auth/user/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUyMjI4LCJpYXQiOjE3NDIwNTE5MjgsImp0aSI6ImJmMzk4ZmQwOGVlZTQ1YTBhNTdjYmZiNzFiN2RhNzIzIiwidXNlcl9pZCI6Mn0.UAZSPITFPqN5JgQ9eCaigyAGJ870al5ErzqBrUTJ_8g
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
