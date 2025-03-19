@@ -41,7 +41,7 @@ Content-Type: application/json
 
 ### 📌 2️⃣ Crear un servicio (Solo profesionales)
 POST http://127.0.0.1:8000/api/services/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
 Content-Type: application/json
 
 {
@@ -70,3 +70,36 @@ Content-Type: application/json
 ### 📌 5️⃣ Eliminar un servicio (Solo dueño)
 DELETE http://127.0.0.1:8000/api/services/1/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+
+### 📅 1️⃣ Listar reservas del usuario autenticado
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+
+### 📅 2️⃣ Crear una reserva
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+
+{
+    "service": 2,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+### 📅 3️⃣ Obtener detalles de una reserva específica
+GET http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+
+### 📅 4️⃣ Actualizar estado de una reserva (Pendiente → Confirmada)
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+
+{
+    "status": "confirmed"
+}
+
+### 📅 5️⃣ Cancelar una reserva
+DELETE http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs

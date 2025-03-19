@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # Apps internas
     'authentication',
     'services',
+    'bookings'
 ]
 
 REST_FRAMEWORK = {

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9534874f-7a61-47ae-8fca-3355f917c6e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookings/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marketplace/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Marketplace/settings.py" afterDir="false" />
@@ -44,11 +44,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.prueba | 📅 1️⃣ Listar reservas del usuario autenticado.executor": "Run",
+    "HTTP Request.prueba | 📅 2️⃣ Crear una reserva.executor": "Run",
+    "HTTP Request.prueba | 📅 3️⃣ Obtener detalles de una reserva específica.executor": "Run",
+    "HTTP Request.prueba | 📅 4️⃣ Actualizar estado de una reserva (Pendiente → Confirmada).executor": "Run",
+    "HTTP Request.prueba | 📌 1️⃣ Listar servicios (con filtros opcionales).executor": "Run",
     "HTTP Request.prueba | 📌 1️⃣ Registro de usuario.executor": "Run",
+    "HTTP Request.prueba | 📌 2️⃣ Crear un servicio (Solo profesionales).executor": "Run",
     "HTTP Request.prueba | 📌 2️⃣ Inicio de sesión y obtención de token JWT.executor": "Run",
     "HTTP Request.prueba | 📌 3️⃣ Obtener datos del usuario autenticado (Reemplaza <ACCESS_TOKEN>).executor": "Run",
+    "HTTP Request.prueba | 📌 3️⃣ Obtener detalles de un servicio específico.executor": "Run",
     "HTTP Request.prueba | 📌 4️⃣ Actualizar perfil del usuario.executor": "Run",
+    "HTTP Request.prueba | 📌 4️⃣ Editar un servicio (Solo dueño).executor": "Run",
     "HTTP Request.prueba | 📌 5️⃣ Eliminar cuenta del usuario.executor": "Run",
+    "HTTP Request.prueba | 📌 5️⃣ Eliminar un servicio (Solo dueño).executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -62,19 +71,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Django Server.DjangoProject">
-    <configuration name="prueba | 📌 1️⃣ Listar servicios (con filtros opcionales)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📌 1️⃣ Listar servicios (con filtros opcionales)" index="6" runType="Run single request">
+    <configuration name="prueba | 📅 1️⃣ Listar reservas del usuario autenticado" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📅 1️⃣ Listar reservas del usuario autenticado" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="prueba | 📌 2️⃣ Crear un servicio (Solo profesionales)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📌 2️⃣ Crear un servicio (Solo profesionales)" index="7" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="prueba | 📌 3️⃣ Obtener detalles de un servicio específico" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📌 3️⃣ Obtener detalles de un servicio específico" index="8" runType="Run single request">
+    <configuration name="prueba | 📅 2️⃣ Crear una reserva" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📅 2️⃣ Crear una reserva" index="12" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="prueba | 📌 4️⃣ Editar un servicio (Solo dueño)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📌 4️⃣ Editar un servicio (Solo dueño)" index="9" runType="Run single request">
+    <configuration name="prueba | 📅 3️⃣ Obtener detalles de una reserva específica" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📅 3️⃣ Obtener detalles de una reserva específica" index="13" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="prueba | 📌 5️⃣ Eliminar un servicio (Solo dueño)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📌 5️⃣ Eliminar un servicio (Solo dueño)" index="10" runType="Run single request">
+    <configuration name="prueba | 📅 4️⃣ Actualizar estado de una reserva (Pendiente → Confirmada)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/prueba.http" executionIdentifier="📅 4️⃣ Actualizar estado de una reserva (Pendiente → Confirmada)" index="14" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="DjangoProject" type="Python.DjangoServer" factoryName="Django server">
@@ -103,10 +112,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.prueba | 📌 5️⃣ Eliminar un servicio (Solo dueño)" />
-        <item itemvalue="HTTP Request.prueba | 📌 4️⃣ Editar un servicio (Solo dueño)" />
-        <item itemvalue="HTTP Request.prueba | 📌 3️⃣ Obtener detalles de un servicio específico" />
-        <item itemvalue="HTTP Request.prueba | 📌 1️⃣ Listar servicios (con filtros opcionales)" />
+        <item itemvalue="HTTP Request.prueba | 📅 4️⃣ Actualizar estado de una reserva (Pendiente → Confirmada)" />
+        <item itemvalue="HTTP Request.prueba | 📅 2️⃣ Crear una reserva" />
+        <item itemvalue="HTTP Request.prueba | 📅 3️⃣ Obtener detalles de una reserva específica" />
+        <item itemvalue="HTTP Request.prueba | 📅 1️⃣ Listar reservas del usuario autenticado" />
         <item itemvalue="HTTP Request.prueba | 📌 2️⃣ Crear un servicio (Solo profesionales)" />
       </list>
     </recent_temporary>
@@ -128,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1742050823336</updated>
       <workItem from="1742050824239" duration="1531000" />
-      <workItem from="1742218911049" duration="648000" />
+      <workItem from="1742218911049" duration="816000" />
+      <workItem from="1742393442846" duration="822000" />
     </task>
     <servers />
   </component>

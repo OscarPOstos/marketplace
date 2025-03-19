@@ -1,3 +1,444 @@
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T153109.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T153059.401.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T153033.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 2,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T153019.201.json
+
+###
+
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0ODgxLCJpYXQiOjE3NDIzOTQ1ODEsImp0aSI6ImIwZmMyNTljMWQ0YzQ0NWM5YWFkOGM0ODk2NTk5MDViIiwidXNlcl9pZCI6M30.kHNvE3Yied0-UIBmUJlhhG6TkW_LgDXiO1sju32vRqs
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "confirmed"
+}
+
+<> 2025-03-19T153002.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-19T152941.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "confirmed"
+}
+
+<> 2025-03-19T152930.401.json
+
+###
+
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "confirmed"
+}
+
+<> 2025-03-19T152725.400.json
+
+###
+
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "confirmed"
+}
+
+<> 2025-03-19T152611.400.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 2,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T152607.201.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T152602.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "confirmed"
+}
+
+<> 2025-03-19T152408.400.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T152405.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T152401.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 2,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T152356.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzk0NDQ3LCJpYXQiOjE3NDIzOTQxNDcsImp0aSI6IjA2MGFlYTFjNjFjYzQ4NmRiNWIyZmYwMjRkOWZiYzA4IiwidXNlcl9pZCI6M30.9IZ_uZqZE7V8osSTvg37-vT4f56kkb9XrJnbVVVzjV8
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-19T152252.201.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-19T152227.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T152221.401.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-19T152156.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/services/
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T152144.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-19T152120.401.json
+
+###
+
+POST http://127.0.0.1:8000/api/services/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "title": "Diseño de Logos",
+    "description": "Servicio profesional de diseño de logos.",
+    "price": 150.00,
+    "category": "design"
+}
+
+<> 2025-03-19T152043.401.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 1,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T151651.400.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": "1",
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T151621.400.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 1,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T151610.400.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T151607.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/bookings/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-19T151554.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/bookings/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMzkzOTk3LCJpYXQiOjE3NDIzOTM2OTcsImp0aSI6IjhiMDQ0ODU0MDY1NTRiYjI4MWRlMTk0ZmMyYzIwYWUzIiwidXNlcl9pZCI6M30.FX3HhNCaCamsP-5UK8iVU8EkpCA39JtxJNDAFQoR85k
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "service": 1,
+    "date": "2025-03-20T15:00:00Z"
+}
+
+<> 2025-03-19T151543.400.json
+
+###
+
+POST http://127.0.0.1:8000/api/auth/login/
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "username": "juan",
+    "password": "123456"
+}
+
+<> 2025-03-19T151457.200.json
+
+###
+
 DELETE http://127.0.0.1:8000/api/services/1/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjE5ODU4LCJpYXQiOjE3NDIyMTk1NTgsImp0aSI6IjBmMzE1YjU0NTRhNDRiMzJhNDljZWUzMmI5M2JkYWQ1IiwidXNlcl9pZCI6M30.Rs-6TufOB_PcYgVxWDSDFkxHfoeES41aRzRqRowOjBQ
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
@@ -261,104 +702,6 @@ Accept: */*
 }
 
 <> 2025-03-15T161756.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/auth/register/
-Content-Type: application/json
-Content-Length: 113
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "username": "juan",
-    "email": "juan@example.com",
-    "password": "123456",
-    "role": "professional"
-}
-
-<> 2025-03-15T161750.201.json
-
-###
-
-GET http://127.0.0.1:8000/api/auth/user/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-15T161347.401.json
-
-###
-
-DELETE http://127.0.0.1:8000/api/auth/user/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-###
-
-PUT http://127.0.0.1:8000/api/auth/user/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
-Content-Type: application/json
-Content-Length: 77
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "username": "juan_actualizado",
-    "email": "juan_nuevo@example.com"
-}
-
-<> 2025-03-15T161333.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/auth/user/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMDUxODc1LCJpYXQiOjE3NDIwNTE1NzUsImp0aSI6IjMxZTBjOTc1MjljOTQwNTliYzNkZjgyYmRiMDY3ODI1IiwidXNlcl9pZCI6MX0.e7TY4SwchfulAEH1j4j0J-mdq_AaiLIbUMFc9rqo1YU
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-<> 2025-03-15T161323.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/auth/login/
-Content-Type: application/json
-Content-Length: 52
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "username": "juan",
-    "password": "123456"
-}
-
-<> 2025-03-15T161255.200.json
-
-###
-
-POST http://127.0.0.1:8000/api/auth/register/
-Content-Type: application/json
-Content-Length: 113
-User-Agent: IntelliJ HTTP Client/PyCharm 2024.3.4
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "username": "juan",
-    "email": "juan@example.com",
-    "password": "123456",
-    "role": "professional"
-}
-
-<> 2025-03-15T161240.201.json
 
 ###
 
